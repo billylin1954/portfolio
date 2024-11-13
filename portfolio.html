@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #title {
+            font-size: 200px;
+            text-align: center;
+            color: whitesmoke;
+            background-color: slategrey;
+        }
+
+        #center {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        #box {
+            text-align: center;
+            background-color: yellow;
+            width: 500;
+            border-radius: 50px;
+            color: black;
+            animation-name: box;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+
+        img {
+            max-width: 33%;
+            max-height: 400px;
+
+        }
+       
+        #rectangle {
+            width: 400px;
+            height: 200px;
+            background-color: indigo;
+        }
+
+        #curves {
+            text-align: center;
+            border: 50px solid blue;
+            border-radius: 50px;
+            width: 100%;
+            margin-left: 150px;
+            margin-right: auto;
+            margin-bottom: hidden;
+        }
+
+        #curve_text {
+            overflow: hidden;
+            height: 110px;
+        }
+
+        #flip {
+            margin-top: -10px;
+            rotate: 180deg;
+        }
+
+        @keyframes box {
+            0% {
+                background-color: rgb(90, 18, 149);
+            }
+            20%{
+                background-color: red;
+            }
+            40% {
+                background-color: rgb(244, 159, 39);
+            }
+
+            60% {
+                background-color: rgb(0, 255, 13);
+            }
+            80% {
+                background-color: rgb(24, 246, 205);
+            }
+            100% {
+                background-color: blue;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id="title">
+        Hi this is my portfolio
+    </h1>
+    <br>
+    <h2 id="center">by Billy , 2024</h2>
+    <h1 id="center">
+        Hi i'm Billy this website will be about <em>me</em> and my experience in computer programming
+        <br>
+        I know javascript,html, css and <strong>c++<strong>
+                <br>
+                <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="s">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png" alt="s">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="s">
+    </h1>
+
+
+    <h1 id="box">Things I am trying to learn are</h1>
+    <br>
+    <br>
+    <h1 id="box">
+        python
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="python logo">
+        <br>
+        unity
+        <br>
+        <img src="https://orivium.io/_next/image?url=%2Fassets%2Fvideo%2Funity.gif&w=2048&q=75" alt="unity_logo">
+        <br>
+        unity is a game engine that supports 2d and 3d game development
+        <br>
+        <a href="https://unity.com/" id="box">unity_link</a>
+    </h1>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <svg id="flip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+
+
+</body>
+
+
+</html>
